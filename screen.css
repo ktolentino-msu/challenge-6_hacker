@@ -10,8 +10,17 @@ body {
 header {
     background-color: #fb7831;
     display: flex;
+    align-items: center;
     padding: 8px;
     margin-top: 16px;
+    height: 36px;
+}
+
+header img {
+    border: 1px solid #ffffff;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
 }
 
 nav {
@@ -43,4 +52,5 @@ ul li::before {
 
 a {
     color: #000000;
+    text-decoration: none;
 }
