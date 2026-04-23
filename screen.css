@@ -1,8 +1,37 @@
 /* Add screen styles below */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+header {
+    background-color: #fb7831;
+    display: flex;
+    margin-top: 16px;
 }
 
 h1 {
     font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li::before {
+  content: "| ";
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+a {
+    color: #000000;
 }
