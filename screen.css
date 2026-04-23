@@ -60,5 +60,13 @@ a {
 }
 
 ol {
-    color: ;
+    color: #999999;
+}
+
+.meta {
+    font-size: 12px;
+}
+
+.domain {
+    font-size: 14px;
 }
