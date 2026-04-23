@@ -10,7 +10,16 @@ body {
 header {
     background-color: #fb7831;
     display: flex;
+    padding: 8px;
     margin-top: 16px;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1 {
